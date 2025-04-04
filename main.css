@@ -5,27 +5,27 @@
 }
 
 nav ul li {
+    font-family: "Comfortaa";
     display: inline;
     padding: 2%;
     list-style-type: none;
+    font-size: larger;
     
     
     
 }
 
 nav ul li a {
-    color: orange;
+    color: rgb(200, 115, 34);
     text-decoration: none;
     font-size: larger;
 }
     
     
-.hero-text{
-    text-align: center;
 
-    color: rgb(255, 255, 255);
     
-}
+    
+
 
 .hero-image{
  
@@ -42,6 +42,8 @@ nav ul li a {
 }
 
 .hero-text{
+    font-family:"Comfortaa";
+    text-align: center;
     font-size:x-large;
     color: white ;
     
@@ -52,7 +54,7 @@ nav ul li a {
     border: 3px solid white;
     border-radius: 20px;
     color: aliceblue;
-    background-color:orange ;
+    background-color:rgb(200, 115, 34) ;
    
 }
 
