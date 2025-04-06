@@ -1,10 +1,29 @@
+
+ 
+
+    *, html {
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+body {
+    background-color: white;
+}
+
+
+
 .header-container{
-    display: block;
-    justify-content: center;
-   text-align: center;
+   
+    text-align: center;
    background-color: rgb(23, 44, 50);
    padding: 2%;
-   margin: -20px;
+   
+  
+   
+   
+   
 }
 
 nav ul li {
@@ -23,9 +42,15 @@ nav ul li a {
     color: rgb(200, 115, 34);
     text-decoration: none;
     font-size: larger;
+   
+    
+    
 }
     
-    
+   .header-container img{
+        display: inline;
+      
+    }
 
     
     
@@ -39,13 +64,15 @@ nav ul li a {
   align-items: center;
   justify-content: center;
   background-size: cover;
-margin: -20px;
+ 
+
+
   
   
 
 }
 
-.hero-text {
+.hero-text{
     font-family:"Comfortaa";
     text-align: center;
     font-size:x-large;
@@ -62,7 +89,6 @@ margin: -20px;
 .hero-text button {
     font-size: x-large;
     padding: 2% 15% 2% 15% ;
-
     border: 1px solid white;
     border-radius: 20px;
     color: aliceblue;
@@ -70,29 +96,74 @@ margin: -20px;
    
 }
 
+
+
 main {
+
     justify-content: center;
     text-align: center;
-    height: 100svh;
+   
+   
+    
+   
+   
 
 }
 
+#grid{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr) minmax(200px, 1fr);
+    grid-template-columns:repeat(1, 1fr) minmax(200px,1fr);
+    margin: 10%
+    
+    
 
-main ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -30px;
+    
+    
+}
+
+figure {
+    margin: 2%;
+    background-color: rgb(23, 44, 50);
+    
+}
+
+
+figcaption{
+   
+   
+    background-color: rgb(23, 44, 50);
+    color: white;
     padding: 3%;
-}
+  
+ }
 
-main li {
-    height: 50vh;
-    flex-grow: 1;
-}
 
-main img {
-    max-height: 100%;
-    min-width: 100%;
+
+#grid figure img {
+
+    max-width: 100%;
+    min-height: 100%;
     object-fit: cover;
-    vertical-align: bottom;
+   background-color: antiquewhite;
+   border-bottom: 10px solid rgb(200, 115, 34);
+  
+  
+   
 }
+
+
+
+
+
+
+#grid h1{
+   background-color: rgb(23, 44, 50);
+   color: rgb(200, 115, 34);
+   padding: 5%;
+   margin-bottom: 0;
+   margin-right: 10%;
+   margin-left: 10%;
+   
+}
+   
