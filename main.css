@@ -64,13 +64,11 @@ nav ul li a {
   align-items: center;
   justify-content: center;
   background-size: cover;
- 
-
-
+  border-top: 10px solid rgb(200, 115, 34);
   
-  
-
 }
+
+
 
 .hero-text{
     font-family:"Comfortaa";
@@ -102,19 +100,32 @@ main {
 
     justify-content: center;
     text-align: center;
-   
-   
-    
-   
+   background-color: rgb(255, 255, 255);
    
 
 }
 
+main h1{
+    font-family: "Comfortaa";
+    color: rgb(23, 44, 50);
+    background-color: rgb(200, 115, 34);
+    padding: 5%;
+    text-align:center;
+   
+}
+
+
+
+
+
 #grid{
+
+    max-height: 400px;
+    min-height: 400px;
     display: grid;
-    grid-template-rows: repeat(2, 1fr) minmax(200px, 1fr);
-    grid-template-columns:repeat(1, 1fr) minmax(200px,1fr);
-    margin: 10%
+    grid-template-rows: repeat(1, 1fr) minmax(50px, 1fr);
+    grid-template-columns:repeat(3, 1fr) minmax(50px,1fr);
+  
     
     
 
@@ -123,18 +134,20 @@ main {
 }
 
 figure {
-    margin: 2%;
-    background-color: rgb(23, 44, 50);
-    
+    margin: 10%;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-bottom: 0;
+  
 }
 
 
 figcaption{
    
-   
-    background-color: rgb(23, 44, 50);
-    color: white;
+   font-size: smaller;
+    color: rgb(23, 44, 50);
     padding: 3%;
+
   
  }
 
@@ -144,7 +157,7 @@ figcaption{
 
     max-width: 100%;
     min-height: 100%;
-    object-fit: cover;
+    object-fit:cover;
    background-color: antiquewhite;
    border-bottom: 10px solid rgb(200, 115, 34);
   
@@ -154,16 +167,48 @@ figcaption{
 
 
 
-
-
-
 #grid h1{
-   background-color: rgb(23, 44, 50);
+   background-color: antiquewhite;
    color: rgb(200, 115, 34);
    padding: 5%;
    margin-bottom: 0;
    margin-right: 10%;
    margin-left: 10%;
+   font-size: 12px;
    
 }
    
+
+.room-container {
+justify-content: space-evenly;
+ display: flex;
+ flex-direction: row;
+background-color: rgb(23, 44, 50);
+  margin: 0;
+}
+
+.room-container img {
+  padding: 3%;
+  max-width: 100%;
+  min-width: 0;
+  
+}
+
+.text-container h2{
+    font-family: "Comfortaa";
+    color: rgb(255, 255, 255);
+    padding: 5%;
+}
+
+.text-container p{
+    color: white;
+    padding: 1%;
+}
+
+button{
+    padding: 2%;
+    margin: 2%;
+    background-color: rgb(200, 115, 34);
+    border: none;
+    border-radius: 10px;
+}
