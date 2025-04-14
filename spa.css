@@ -1,20 +1,76 @@
 
-p{
-    padding: 1%;
-    margin: 1%;
+body{
+    background-image: url(/images/spa-room.jpg); 
+    
+}
+
+section{
+    border-radius: 200px;
+    background-color: rgb(32, 33, 34);
+    padding: 2;
+    margin: 10%;
+
+}
+
+figure{
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+figure img{
+    border: 10px solid rgb(200, 115, 34);
+
+    
+}
+
+
+h1{
+    padding-top: 5%;
+    padding-bottom:5% ;
+    text-align: center;
+    font-family: "Comfortaa";
+    background-color: rgb(200, 115, 34);
+    
+}
+
+
+h2{
+padding: 5%;
+text-align: center;
+color:rgb(200, 115, 34) ;
+font-size: xx-large;
+
+
 }
 
 table {
+    
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    
+   
+    
   }
   th, td {
-    border: 1px solid #ccc;
+    border: 1px solid  rgb(23, 44, 50);
     padding: 10px;
     text-align: left;
     vertical-align: top;
+    background-color: white;
+    
   }
   th {
-    background-color: #f2f2f2;
+    background-color:rgb(200, 115, 34);
+    color: white;
+  }
+
+p{
+    text-align: center;
+}
+
+  h3{
+    color: white;
+    text-align: center;
   }
