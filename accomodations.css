@@ -1,0 +1,93 @@
+
+section h1{
+    font-family: "Comfortaa";
+    padding: 2%;
+    text-align: center;
+    background-color:rgb(200, 115, 34);
+    margin: 0;
+    width: 100%;
+}
+
+section h2{
+text-align: center;
+background-color: rgb(200, 115, 34);
+margin: 0;
+padding: 2%;
+width: 100%;
+
+}
+
+
+
+
+#rooms h2{
+    font-size: x-large;
+    background-color: rgb(23, 44, 50);
+    color: white;
+    padding: 2%;
+    
+}
+#rooms h3{
+    font-size: large;
+    background-color: rgb(23, 44, 50);
+    color: white;
+    padding: 2%;
+}
+
+body{
+    background-color: antiquewhite;
+    min-width: 100vw;
+}
+
+main{
+    margin: 0;
+    background-color: antiquewhite;
+    min-width: 100vw;
+}
+
+.header-container{
+    min-width: 100vw;
+   
+    text-align: center;
+    justify-content: center;
+}
+
+#rooms{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#rooms figure{
+   
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(23, 44, 50);
+
+    
+}
+
+#rooms figcaption{
+    color:rgb(200, 115, 34) ;
+   margin: 0;
+   
+   
+    
+}
+
+#rooms image{
+    margin-top: 5%;
+    justify-content: center;
+   
+}
+
+#rooms figure h1{
+    background-color: antiquewhite;
+    color: black;
+
+}
+
+ul{
+    list-style: none;
+}
+

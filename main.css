@@ -97,10 +97,10 @@ nav ul li a {
 
 
 main {
-
-    justify-content: center;
-    text-align: center;
-   background-color: antiquewhite;
+margin: 0;
+justify-content: center;
+text-align: center;
+background-color: antiquewhite;
    
 
 }
@@ -108,7 +108,7 @@ main {
 main h1{
     font-family: "Comfortaa";
     color: rgb(255, 255, 255);
-    background-color: rgb(200, 115, 34);
+    background-color: rgb(23, 44, 50);
     padding: 3%;
     text-align:center;
 
@@ -183,22 +183,23 @@ figcaption{
    margin-top: 20%;
    
 }
-   
+
+
 
 .room-container {
 justify-content: space-evenly;
  display: flex;
  flex-direction: row;
-background-color: rgb(23, 44, 50);
+background-color: rgb(32, 33, 34);
   margin: 0;
 }
 
 .room-container img {
-  
   max-width: 100%;
   min-width: 0;
   
 }
+
 
 .text-container h2{
     font-family: "Comfortaa";
@@ -207,10 +208,14 @@ background-color: rgb(23, 44, 50);
    
 }
 
-.text-container p{
+.text-container figcaption{
     color: white;
-    padding: 1%;
+    padding: 2%;
     font-size: larger;
+   
+   
+    
+    
 }
 
 button{
@@ -218,12 +223,37 @@ button{
     margin: 2%;
     background-color: rgb(200, 115, 34);
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: large;
 }
 
+
+
+
+section{
+    padding: 10%;
+}
+
 section h1{
+    background-color: rgb(23, 44, 50);
     font-size: xx-large;
+}
+
+section p{
+    padding: 5%;
+    font-size: xx-large;
+    color: rgb(23, 44, 50);
+    font-family: "Comfortaa";
+    font-style:italic;
+
+}
+
+footer{
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(23, 44, 50);
+    color: aliceblue;
+    font-size: x-large;
 }
 
 @media only screen and (max-width: 1300px){
