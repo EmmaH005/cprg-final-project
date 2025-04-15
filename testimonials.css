@@ -1,0 +1,28 @@
+
+main{
+background-color: rgb(32, 33, 34) ;
+}
+
+main h1{
+    text-align: center;
+    padding: 2%;
+    background-color:  rgb(200, 115, 34);
+}
+
+
+main h2{
+    background-color: rgb(200, 115, 34);
+    padding: 2%;
+    color: white;
+}
+
+main p{
+    padding: 5%;
+    margin: 2%;
+    color: white;
+    font-size: x-large;
+}
+
+.checked{
+    color: rgb(200, 115, 34);
+}

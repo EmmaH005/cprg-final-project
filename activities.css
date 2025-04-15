@@ -1,46 +1,109 @@
-#activities{
-    background-color: rgb(23, 44, 50);
-    color: white;
-}
-
-#Booking{
-    list-style: none;
-    margin-top: 1%;
-    text-align: center;
-    
-}
-
-
-
 
 main {
     background-color: white;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(4,1fr);
-    gap: 2rem
+    gap: 1%
     
 }
 
-h1 {
-    text-align: center;
+figure{
+    background-color: rgb(200, 115, 34);
+    justify-content: center;
+    
 }
 
 
 
-section h2 {
-    margin: 0;
-    padding: 20px;
+#activities{
+    background-image: url(images/resort-drone.jpg);
+    background-size:cover;
+    font-family: "Comfortaa";
+    color: aliceblue;
+    
+}
+
+#activities h2{
+    background-color: rgb(23, 44, 50);
+    padding: 3%;
+    
+}
+
+#activities h3{
+    background-color: white;
+    color:black;
+    font-size: x-large;
+    padding: 10%;
+    border-bottom:10px solid rgb(200, 115, 34);
+}
+
+ #activities figure{
+    background-color: none;
+
+
+
+}
+
+
+#Recreation{
+    background-color: antiquewhite;
+}
+
+#Local{
+    background-color: antiquewhite;
+}
+
+#Booking{
+   background-color: rgb(23, 44, 50);
+    margin-top: 0%;
+    text-align: center;
+    grid-column: span 2;
+    color: white;
+    
+    
+    
+}
+
+
+#Booking h3{
+    padding: 2%;
+    
+}
+
+#Booking ul{
+    list-style: none;
+}
+
+
+
+#Booking h3{
+    color: rgb(200, 115, 34);
+}
+
+
+
+
+li{
+    padding: 2%;
+}
+
+
+section h2 {   
+    padding-bottom: 5%;
     text-align: center;
 
 }
 
 section {
+    font-size: x-large;
     margin: 2%;
     background-color: rgb(200, 115, 34);
-    border: 2px solid black;
     border-radius: 20px;
+    
+
 }
+
 
 
 
