@@ -4,16 +4,17 @@ background-color: rgb(32, 33, 34) ;
 }
 
 main h1{
+    color: black;
     text-align: center;
-    padding: 2%;
+    padding-top: 5%;
     background-color:  rgb(200, 115, 34);
 }
 
 
 main h2{
     background-color: rgb(200, 115, 34);
-    padding: 2%;
-    color: white;
+    padding-bottom: 5%;
+    color: black;
 }
 
 main p{
@@ -26,3 +27,12 @@ main p{
 .checked{
     color: rgb(200, 115, 34);
 }
+
+main h3{
+color: black;
+background-color: rgb(200, 115, 34);
+padding: 10%;
+font-size: x-large;
+}
+
+

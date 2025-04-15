@@ -1,6 +1,8 @@
 
-body{
-    background-image: url(/images/spa-room.jpg); 
+main{
+    background-image: url(/images/water.jpg); 
+    background-size: cover;
+    
     
 }
 
@@ -26,7 +28,7 @@ figure img{
 }
 
 
-h1{
+main h1{
     padding-top: 5%;
     padding-bottom:5% ;
     text-align: center;
@@ -74,3 +76,5 @@ p{
     color: white;
     text-align: center;
   }
+
+  

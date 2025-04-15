@@ -22,9 +22,10 @@ width: 100%;
 
 #rooms h2{
     font-size: x-large;
-    background-color: rgb(23, 44, 50);
+    background-color: rgb(200, 115, 34);
     color: white;
     padding: 2%;
+    
     
 }
 #rooms h3{
@@ -47,7 +48,6 @@ main{
 
 .header-container{
     min-width: 100vw;
-   
     text-align: center;
     justify-content: center;
 }
@@ -56,10 +56,11 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 5%;
+
 }
 
 #rooms figure{
-   
     text-align: center;
     padding: 2%;
     background-color: rgb(23, 44, 50);
@@ -67,12 +68,14 @@ main{
     
 }
 
+#rooms figure img{
+    width: 100%;
+}
+
 #rooms figcaption{
     color:rgb(200, 115, 34) ;
    margin: 0;
-   
-   
-    
+
 }
 
 #rooms image{
@@ -89,5 +92,6 @@ main{
 
 ul{
     list-style: none;
+    
 }
 
