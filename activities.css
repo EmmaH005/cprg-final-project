@@ -106,5 +106,11 @@ section {
 
 
 
+@media only screen and (max-width: 850px){
+    main {
+       display: flex;
+       flex-direction: column;
+    }
 
+}
 

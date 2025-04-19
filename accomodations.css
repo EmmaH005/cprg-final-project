@@ -37,7 +37,7 @@ width: 100%;
 
 body{
     background-color: antiquewhite;
-    min-width: 100vw;
+    
 }
 
 main{
@@ -55,7 +55,8 @@ main{
 #rooms{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
     margin-bottom: 5%;
 
 }
@@ -69,7 +70,7 @@ main{
 }
 
 #rooms figure img{
-    width: 100%;
+    max-width: 100%;
 }
 
 #rooms figcaption{
@@ -95,3 +96,8 @@ ul{
     
 }
 
+
+
+@media only screen and (max-width: 650px){
+    
+}

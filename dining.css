@@ -60,7 +60,11 @@ details p{
 
 #grid h1{
     display: static;
+    max-width: 100%;
+
 }
+
+
 
 
 #grid :last-child{
@@ -69,21 +73,17 @@ details p{
 }
 
 
-@media only screen and (max-width: 1300px){
-    #grid{
-   display: flex;
-   flex-direction: column;
-   padding: 0;
-   margin: 0;
-    }
 
-    #grid figure{
-        margin: 0;
-        padding: 0;
-    }
-
+@media only screen and (max-width: 950px){
+   
+   #grid{
+    display: flex;
+    flex-direction: column;
+   }
     
+   #grid :last-child{
+    grid-column: span 1;
+    
+} 
+
 }
-  
-
-    
