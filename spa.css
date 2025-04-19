@@ -4,6 +4,7 @@ main{
     background-size: cover;
     
     
+    
 }
 
 section{
@@ -11,6 +12,8 @@ section{
     background-color: rgb(32, 33, 34);
     padding: 2;
     margin: 10%;
+    text-align: center;
+    justify-content: center;
 
 }
 
@@ -51,17 +54,22 @@ table {
     
     max-width: 100%;
     border-collapse: collapse;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     
-   
     
   }
+  
   th, td {
     border: 1px solid  rgb(23, 44, 50);
     padding: 10px;
-    text-align: left;
+    text-align: center;
     vertical-align: top;
     background-color: white;
     max-width: 100%;
+
     
   }
   th {
@@ -85,5 +93,6 @@ p{
      font-size: smaller;
       max-width: 75%;
       overflow-x: auto;
+      text-align: center;
   }
 }
