@@ -47,7 +47,7 @@ main{
 }
 
 .header-container{
-    min-width: 100vw;
+    min-width: 100vw;                    
     text-align: center;
     justify-content: center;
 }
@@ -55,8 +55,6 @@ main{
 #rooms{
     display: flex;
     flex-direction: column;
-    max-width: 100%;
-    min-height: 100%;
     margin-bottom: 5%;
 
 }
@@ -98,6 +96,3 @@ ul{
 
 
 
-@media only screen and (max-width: 650px){
-    
-}
